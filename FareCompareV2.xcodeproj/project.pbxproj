@@ -319,7 +319,7 @@
 				TargetAttributes = {
 					3B55EEAE1F14078B0010633A = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = B5GSG3QT4C;
+						DevelopmentTeam = EVD2YC5LB3;
 						ProvisioningStyle = Automatic;
 					};
 					3B55EEC21F14078B0010633A = {
@@ -702,10 +702,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = B5GSG3QT4C;
+				DEVELOPMENT_TEAM = EVD2YC5LB3;
 				INFOPLIST_FILE = FareCompareV2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cipher.FareCompareV2.something;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cipher.FareCompareV2.new;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
@@ -718,10 +718,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = B5GSG3QT4C;
+				DEVELOPMENT_TEAM = EVD2YC5LB3;
 				INFOPLIST_FILE = FareCompareV2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cipher.FareCompareV2.something;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cipher.FareCompareV2.new;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;

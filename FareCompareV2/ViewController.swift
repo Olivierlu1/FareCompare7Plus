@@ -96,7 +96,7 @@ class ViewController: UIViewController
     {
         
         print("getLyftRidePrice called")
-        let token:JSON = "X5WSfbfolelV1F7pZ7afjVLinmQJdiC/fw8TqeoyM3dsXXguLYHabhMjb9LJF04ZE4GDeadH2LduYy80xGP9dAHYyP50yJ0zD1GjdAeltrJHMqHodDxlKUQ="
+        let token:JSON = "742iT6eRq4cdqCsMTwfEZM8sKuTKerQLoI0CX2l8KeOfO4++shcsrRBgVmRcpQlsbA6MdQdfpp5N7OLiJKK2TQLDeMEWmtkKphjLefj4aZpYDvqngM/qXiM="
         let headerRequest: HTTPHeaders = ["Authorization" : "bearer \(token)"]
         let paramsRequest: Parameters = ["start_lat": start_lat,
                                          "start_lng": start_lng,
@@ -128,7 +128,7 @@ class ViewController: UIViewController
     // Getting amount of time for the driver to get to the passenger
     func getLyftETA(start_lat: Double, start_lng: Double, end_lat: Double, end_lng: Double)
     {
-        let token:JSON = "X5WSfbfolelV1F7pZ7afjVLinmQJdiC/fw8TqeoyM3dsXXguLYHabhMjb9LJF04ZE4GDeadH2LduYy80xGP9dAHYyP50yJ0zD1GjdAeltrJHMqHodDxlKUQ="
+        let token:JSON = "742iT6eRq4cdqCsMTwfEZM8sKuTKerQLoI0CX2l8KeOfO4++shcsrRBgVmRcpQlsbA6MdQdfpp5N7OLiJKK2TQLDeMEWmtkKphjLefj4aZpYDvqngM/qXiM="
         let headerRequest: HTTPHeaders = ["Authorization" : "bearer \(token)"]
         let paramsRequest: Parameters = ["lat": start_lat,
                                          "lng": start_lng,
@@ -256,12 +256,12 @@ class ViewController: UIViewController
         let dropoffLocation = CLLocation(latitude: Double(endLat), longitude: Double(endLong))
         let builder = RideParametersBuilder().setDropoffLocation(dropoffLocation, nickname: dropoffNickname)
         button.rideParameters = builder.build()
-        uberButton.center = CGPoint(x: view.frame.width/2, y: 365) //position the button
+        uberButton.center = CGPoint(x: view.frame.width/2, y: 360) //position the button
         view.addSubview(uberButton) //put the button in the view
         // --
         let btnLyft = LyftButton() //ride request button
         btnLyft.style = LyftButtonStyle.hotPink //making the button pink
-        btnLyft.center = CGPoint(x: view.frame.width/2, y: 607) //position the button
+        btnLyft.center = CGPoint(x: view.frame.width/2, y: 600) //position the button
         let pickup = CLLocationCoordinate2D(latitude: startLat, longitude: startLong)
         let destination = CLLocationCoordinate2D(latitude: endLat, longitude: endLong)
         btnLyft.configure(rideKind: LyftSDK.RideKind.Standard, pickup: pickup, destination: destination)
