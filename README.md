@@ -1,5 +1,5 @@
 # FareCompare7Plus
-Our FareCompare app that works specifically with the iphone 7+
+Our app that lets you compare Uber and Lyft prices to find the cheapest route to your destination!
 
 To Generate New Lyft Access Token:
 
